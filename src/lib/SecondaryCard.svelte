@@ -28,8 +28,10 @@
     </p>
     <SmallCards />
     <p class="italic pt-2">
-      For more information, visit the Eligibility and Work Search Requirements
-      page on our website.
+      For more information, visit the <a
+        href="https://cdle.colorado.gov/eligibility-and-work-search-requirements"
+        class="link">Eligibility and Work Search Requirements</a
+      > page on our website.
     </p>
   </div>
 </div>
