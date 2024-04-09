@@ -5,6 +5,7 @@
   import HeroCard from "./lib/HeroCard.svelte";
   import SecondaryCard from "./lib/SecondaryCard.svelte";
   import TertiaryCards from "./lib/TertiaryCards.svelte";
+  import Footer from "./lib/Footer.svelte";
 </script>
 
 <main class="mx-9 mt-8">
@@ -14,3 +15,4 @@
   <SecondaryCard />
   <TertiaryCards />
 </main>
+<Footer />

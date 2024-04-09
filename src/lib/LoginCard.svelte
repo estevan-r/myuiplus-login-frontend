@@ -38,7 +38,7 @@
         class="btn btn-primary border-none bg-co-blue-p hover:bg-co-blue-s"
       />
     </div>
-    <p class="pt-8 text-xs">
+    <p class="pt-8 text-xs text-pretty">
       This system is for Official Use Only and contains Personally Identifiable
       Information (PII). Any misuse or unauthorized disclosure of information
       may result in both Civil and Criminal penalties.

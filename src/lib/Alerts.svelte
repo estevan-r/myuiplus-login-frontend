@@ -1,5 +1,5 @@
 <!-- Refactor to call text as data -->
-<div class="alert alert-info p-6 items-start shadow">
+<div class="alert alert-info p-6 items-start shadow-lg">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
@@ -48,5 +48,9 @@
 <style>
   ul {
     list-style-type: disc;
+  }
+
+  p {
+    text-wrap: pretty;
   }
 </style>

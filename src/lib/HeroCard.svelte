@@ -30,7 +30,7 @@
         href="https://myui.clouduim.cdle.state.co.us/Claimant/Benefits/Claims/Initial/ViewPrelimInfo.ASPX"
       >
         <button
-          class="btn btn-lg btn-outline text-base-100 text-xl border-co-yellow hover:bg-co-yellow hover:text-base-content"
+          class="btn btn-lg btn-outline text-base-100 text-xl border-co-yellow-p hover:bg-co-yellow-p hover:text-base-content"
         >
           Apply
         </button>

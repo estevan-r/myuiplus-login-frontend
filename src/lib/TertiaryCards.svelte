@@ -23,13 +23,13 @@
           personal or financial information.
         </p>
       </div>
-      <div class="card-body rounded-lg bg-warning shadow-lg mt-4">
+      <div class="card-body p-6 rounded-lg bg-co-yellow-s shadow-lg mt-4">
         <div
-          class="badge bg-warning-content text-warning tracking-widest py-3 px-3 font-semibold"
+          class="badge bg-co-yellow-p text-warning-content tracking-widest py-3 px-3 font-medium"
         >
           NOTE
         </div>
-        <p class="text-warning-content">
+        <p class="text-warning-content text-pretty">
           CDLE will never send you a text message with a link to log into your
           account. To be sure that you are accessing the official MyUI+ portal
           and not a fake site, access your MyUI+ account via CDLE's official
