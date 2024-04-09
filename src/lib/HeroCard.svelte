@@ -5,10 +5,12 @@
 <div
   class="hero rounded-2xl mt-4 p-9 bg-gradient-to-b from-co-blue-p to-co-blue-s"
 >
-  <div class="hero-content flex-col lg:flex-row-reverse gap-9">
-    <div
-      class="max-w-sm rounded-lg shadow-2xl w-full h-96 bg-hero bg-[center_right_-7.5rem] bg-no-repeat bg-[length:250%]"
-    ></div>
+  <div class="hero-content flex-col lg:flex-row-reverse gap-9 justify-between">
+    <img
+      src="src/assets/ui-hero.jpg"
+      alt="Woman at a table typing on her computer."
+      class="max-w-sm rounded-lg shadow-2xl w-72 h-auto"
+    />
     <div>
       <h2 class="text-5xl font-bold tracking-tight text-base-100">
         Apply for Benefits
