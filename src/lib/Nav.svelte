@@ -9,7 +9,7 @@
         <img src={logo} alt="CDLE logo" class="w-[200px] h-auto" />
       </a>
     </div>
-    <ul class="menu menu-horizontal px-1 gap-8">
+    <ul class="hidden menu menu-horizontal px-1 gap-8">
       <li>
         <a href="/">Find a Job</a>
       </li>
@@ -27,5 +27,5 @@
       </li>
     </ul>
   </nav>
-  <div class="w-full h-[1px] bg-base-200 my-4"></div>
+  <div class="w-full h-[1px] bg-base-200 my-3"></div>
 </header>

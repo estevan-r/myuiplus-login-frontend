@@ -11,11 +11,7 @@ export default {
     fontFamily: {
       sans: ["Open Sans", "sans-serif"],
     },
-    extend: {
-      backgroundImage: {
-        hero: "url('src/assets/ui-hero.jpg')",
-      },
-    },
+    extend: {},
   },
   plugins: [require("daisyui")],
   daisyui: {

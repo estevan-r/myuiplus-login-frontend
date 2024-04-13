@@ -7,7 +7,7 @@
 <div
   class="mt-9 px-14 py-9 flex flex-col gap-9 w-full bg-base-200 border-t-2 border-t-base-300"
 >
-  <div class="flex justify-between items-center">
+  <div class="flex flex-wrap justify-between items-center">
     <ul class="flex gap-6">
       <li>
         <a

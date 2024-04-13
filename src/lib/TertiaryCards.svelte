@@ -1,4 +1,4 @@
-<div class="mt-9 flex gap-4">
+<div class="mt-9 flex flex-wrap gap-4">
   <div class="card w-full bg-base-100 border-2 border-base-300">
     <div class="card-body">
       <svg

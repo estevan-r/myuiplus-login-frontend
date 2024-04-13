@@ -8,7 +8,7 @@
   import Footer from "./lib/Footer.svelte";
 </script>
 
-<main class="mx-9 mt-8">
+<main class="px-2 pt3 sm:px-9 sm:pt-8">
   <NavBar />
   <Alerts />
   <HeroCard />

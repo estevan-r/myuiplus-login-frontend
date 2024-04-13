@@ -2,14 +2,16 @@
   import SmallCards from "./SmallCards.svelte";
 </script>
 
-<div class="card mt-9 w-full bg-base-100 border-2 border-base-300">
+<div
+  class="card card-compact sm:card-normal mt-4 sm:mt-9 w-full bg-base-100 border border-base-300"
+>
   <div class="card-body">
     <div class="flex justify-between flex-row-reverse">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        class="w-12 h-12 text-co-blue-p"
+        class="w-[30px] h-[30px] sm:w-12 sm:h-12 text-co-blue-p shrink-0"
       >
         <path
           fill-rule="evenodd"
@@ -17,17 +19,17 @@
           clip-rule="evenodd"
         />
       </svg>
-      <h2 class="card-title text-5xl tracking-tight">
+      <h2 class="card-title text-3xl sm:text-5xl tracking-tight">
         Next Steps After Filing Your Claim
       </h2>
     </div>
-    <p class="text-2xl text-balance py-4">
+    <p class="sm:text-2xl text-balance sm:py-4">
       Once you've opened your unemployment claim, there are a few things you
       need to do in order to remain eligible for benefits and receive payments
       on time.
     </p>
     <SmallCards />
-    <p class="italic pt-2">
+    <p class="text-sm sm:text-base font-light italic pt-2">
       For more information, visit the <a
         href="https://cdle.colorado.gov/eligibility-and-work-search-requirements"
         class="link">Eligibility and Work Search Requirements</a
