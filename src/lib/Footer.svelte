@@ -1,14 +1,15 @@
 <script>
   import emblem from "../assets/cdle-emblem.svg";
-
   const year = new Date().getFullYear();
 </script>
 
 <div
-  class="mt-9 px-14 py-9 flex flex-col gap-9 w-full bg-base-200 border-t-2 border-t-base-300"
+  class="mt-4 sm:mt-9 p-6 md:px-14 md:py-9 flex flex-col gap-9 w-full bg-base-200 border-t border-t-base-300"
 >
-  <div class="flex flex-wrap justify-between items-center">
-    <ul class="flex gap-6">
+  <div class="flex flex-wrap justify-between items-center gap-9">
+    <ul
+      class="link flex flex-wrap justify-center md:justify-start gap-x-9 gap-y-6 text-sm md:text-base underline-offset-4"
+    >
       <li>
         <a
           href="https://myui.clouduim.cdle.state.co.us/Static/Benefits/Privacy.html"
@@ -28,11 +29,12 @@
         >
       </li>
     </ul>
-    <div class="flex gap-3">
+    <div class="flex items-center gap-3 text-sm md:text-base text-balance">
       <img src={emblem} alt="CDLE emblem" class="h-6 w-auto" />
       <p>©{year} Colorado Department of Labor and Employment</p>
     </div>
   </div>
+
   <div class="flex flex-col gap-4 text-sm text-pretty">
     <h4 class="font-semibold tracking-wider">WARNING</h4>
     <p>
