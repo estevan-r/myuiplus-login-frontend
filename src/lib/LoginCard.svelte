@@ -1,5 +1,5 @@
 <div
-  class="card card-compact sm:card-normal rounded-lg shrink-0 md:w-[360px] md:max-w-sm shadow-2xl bg-base-100"
+  class="card card-compact sm:card-normal rounded-lg shrink-0 md:w-[312px] lg:w-[360px] lg:max-w-sm shadow-2xl bg-base-100"
 >
   <form class="card-body">
     <h1 class="text-2xl font-semibold pb-6 sm:pb-8 tracking-tight">

@@ -8,13 +8,15 @@
   <div
     class="hero-content p-0 sm:p-4 flex-col lg:flex-row-reverse gap-6 sm:gap-9 justify-between"
   >
-    <LoginCard />
+    <div class="md:flex md:gap-9 md:items-center">
+      <LoginCard />
 
-    <img
-      src="src/assets/ui-hero.jpg"
-      alt="Woman at a table typing on her computer."
-      class="hidden max-w-sm rounded-lg shadow-2xl w-72 h-auto"
-    />
+      <img
+        src="src/assets/ui-hero.jpg"
+        alt="Woman at a table typing on her computer."
+        class="hidden md:block lg:hidden max-w-sm rounded-lg shadow-2xl w-auto h-[340px] object-cover"
+      />
+    </div>
 
     <div class="flex flex-col gap-4 sm:gap-6">
       <h2 class="text-3xl sm:text-5xl font-bold tracking-tight text-base-100">
@@ -35,7 +37,7 @@
         href="https://myui.clouduim.cdle.state.co.us/Claimant/Benefits/Claims/Initial/ViewPrelimInfo.ASPX"
       >
         <button
-          class="btn w-full btn-md md:w-auto sm:btn-lg btn-outline text-base-100 sm:text-xl border-co-yellow-p hover:bg-co-yellow-p hover:text-base-content"
+          class="btn w-full btn-md md:w-1/3 lg:w-auto sm:btn-lg btn-outline text-base-100 sm:text-xl border-co-yellow-p hover:bg-co-yellow-p hover:text-base-content"
         >
           Apply
         </button>

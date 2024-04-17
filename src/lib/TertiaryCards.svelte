@@ -3,7 +3,9 @@
     class="card card-compact sm:card-normal w-full bg-base-100 border border-base-300"
   >
     <div class="card-body">
-      <div class="flex justify-between items-center flex-row-reverse">
+      <div
+        class="flex justify-between items-center md:flex-col md:items-start md:gap-6 flex-row-reverse"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -20,18 +22,18 @@
           Protect Yourself from Scams
         </h3>
       </div>
-      <p class="xl:text-lg text-balance py-2">
+      <p class="xl:text-lg text-balance md:text-pretty py-2">
         Fraudsters often use spoofed websites—fake sites which copy an official
         site's design—to trick unsuspecting victims into giving up personal or
         financial information.
       </p>
-      <div class="card-body rounded-lg bg-co-yellow-s shadow-lg">
+      <div class="card-body rounded-lg bg-co-yellow-s shadow-lg md:mt-2">
         <div
-          class="badge badge-sm md:badge-md bg-co-yellow-p text-warning-content tracking-widest p-3 font-medium"
+          class="badge badge-sm md:badge-md bg-co-yellow-p text-warning-content tracking-widest p-3 md:p-4 font-medium"
         >
           NOTE
         </div>
-        <p class="text-warning-content text-pretty">
+        <p class="text-warning-content text-pretty md:pt-2">
           CDLE will never send you a text message with a link to log into your
           account. To be sure that you are accessing the official MyUI+ portal
           and not a fake site, access your MyUI+ account via CDLE's official
@@ -47,7 +49,9 @@
     class="card card-compact sm:card-normal w-full bg-base-100 border border-base-300"
   >
     <div class="card-body">
-      <div class="flex justify-between items-center flex-row-reverse">
+      <div
+        class="flex justify-between items-center flex-row-reverse md:flex-col md:items-start md:gap-6"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -65,12 +69,12 @@
           1099-G Tax Forms Available in MyUI+
         </h3>
       </div>
-      <p class="xl:text-lg text-balance py-2">
+      <p class="xl:text-lg text-balance md:text-pretty pt-2 pb-1">
         If you received unemployment benefits in 2023, you can download a copy
         of your 1099-G tax form from your MyUI+ account. Please log in and go to
         "View Correspondences."
       </p>
-      <p class="xl:text-lg text-balance py-2">
+      <p class="xl:text-lg text-balance md:text-pretty py-2">
         You can request a correction if you believe the 1099-G form you received
         has an error, or you received a 1099-G form in your name despite not
         having received unemployed benefits.

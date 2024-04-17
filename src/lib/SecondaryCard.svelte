@@ -6,7 +6,7 @@
   class="card card-compact sm:card-normal mt-4 sm:mt-9 w-full bg-base-100 border border-base-300"
 >
   <div class="card-body">
-    <div class="flex justify-between flex-row-reverse">
+    <div class="flex justify-between flex-row-reverse md:flex-col md:gap-6">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -19,7 +19,7 @@
           clip-rule="evenodd"
         />
       </svg>
-      <h2 class="card-title text-3xl sm:text-5xl tracking-tight">
+      <h2 class="card-title text-3xl sm:text-5xl text-balance tracking-tight">
         Next Steps After Filing Your Claim
       </h2>
     </div>
@@ -29,7 +29,7 @@
       on time.
     </p>
     <SmallCards />
-    <p class="text-sm sm:text-base font-light italic pt-2 text-pretty">
+    <p class="text-sm sm:text-base sm:px-2 font-light italic pt-2 text-pretty">
       For more information, visit the <a
         href="https://cdle.colorado.gov/eligibility-and-work-search-requirements"
         class="link">Eligibility and Work Search Requirements</a

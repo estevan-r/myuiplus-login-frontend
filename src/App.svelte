@@ -22,9 +22,9 @@
           <img
             src={logo}
             alt="CDLE logo"
-            class="lg:block hidden w-[200px] h-auto"
+            class="md:block hidden w-[200px] h-auto"
           />
-          <img src={emblem} alt="CDLE emblem" class="lg:hidden w-auto h-9" />
+          <img src={emblem} alt="CDLE emblem" class="md:hidden w-auto h-9" />
         </a>
       </div>
       <div class="flex-none lg:hidden">
@@ -56,7 +56,7 @@
       </div>
     </div>
     <!-- Page content here -->
-    <main class="px-2 sm:px-6 md:px-9 pt-4 md:pt-8">
+    <main class="px-2 sm:px-6 md:px-9 pt-4">
       <Alerts />
       <HeroCard />
       <SecondaryCard />
