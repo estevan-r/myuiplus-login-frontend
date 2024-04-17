@@ -4,7 +4,7 @@
 </script>
 
 <div
-  class="mt-4 sm:mt-9 p-6 md:px-14 md:py-9 flex flex-col gap-9 w-full bg-base-200 border-t border-t-base-300"
+  class="mt-4 sm:mt-9 p-6 md:px-14 md:py-9 2xl:px-28 flex flex-col gap-9 w-full bg-base-200 border-t border-t-base-300"
 >
   <div class="flex flex-wrap justify-between items-center gap-9">
     <ul

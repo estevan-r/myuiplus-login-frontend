@@ -1,15 +1,15 @@
 <script>
-  const pStyle = "text-sm sm:text-2xl font-medium text-balance";
+  const pStyle = "text-sm sm:text-xl xl:text-2xl font-medium text-balance";
 </script>
 
-<div class="grid lg:grid-cols-3 gap-4 md:gap-6 lg:gap-12 py-4 lg:py-6">
+<div class="grid lg:grid-cols-3 gap-4 md:gap-6 py-4">
   <div class="card w-full bg-base-200 shadow-lg">
     <div class="card-body lg:flex-col flex-row gap-4">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        class="w-6 h-6 sm:w-8 sm:h-8 text-co-blue-p shrink-0"
+        class="w-6 h-6 sm:w-8 sm:h-8 xl:w-9 xl:h-9 text-co-blue-p shrink-0"
       >
         <path
           fill-rule="evenodd"
@@ -33,7 +33,7 @@
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        class="w-6 h-6 sm:w-8 sm:h-8 text-co-blue-p shrink-0"
+        class="w-6 h-6 sm:w-8 sm:h-8 xl:w-9 xl:h-9 text-co-blue-p shrink-0"
       >
         <path
           fill-rule="evenodd"
@@ -53,7 +53,7 @@
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        class="w-6 h-6 sm:w-8 sm:h-8 text-co-blue-p shrink-0"
+        class="w-6 h-6 sm:w-8 sm:h-8 xl:w-9 xl:h-9 text-co-blue-p shrink-0"
       >
         <path
           d="M12.75 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM7.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM8.25 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM9.75 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM10.5 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM12.75 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM14.25 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"

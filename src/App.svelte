@@ -15,7 +15,7 @@
   <div class="drawer-content flex flex-col">
     <!-- Navbar -->
     <div
-      class="w-full sm:px-6 md:px-9 navbar bg-base-100 border-b border-base-200"
+      class="w-full sm:px-6 md:px-9 2xl:px-24 navbar lg:py-4 bg-base-100 border-b border-base-200"
     >
       <div class="flex-1 px-2">
         <a href="https://coloradoui.gov/">
@@ -38,7 +38,7 @@
       </div>
 
       <div class="flex-none hidden lg:block">
-        <ul class="menu menu-horizontal">
+        <ul class="menu menu-horizontal gap-6">
           <!-- Navbar menu content here -->
           <li>
             <a
@@ -56,7 +56,7 @@
       </div>
     </div>
     <!-- Page content here -->
-    <main class="px-2 sm:px-6 md:px-9 pt-4">
+    <main class="px-2 sm:px-6 md:px-9 2xl:px-24 pt-4">
       <Alerts />
       <HeroCard />
       <SecondaryCard />

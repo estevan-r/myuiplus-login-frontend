@@ -1,4 +1,6 @@
-<div class="mt-4 sm:mt-9 flex flex-wrap gap-4 sm:gap-9">
+<div
+  class="mt-4 sm:mt-9 flex flex-wrap lg:flex-nowrap lg:gap-4 gap-4 sm:gap-9 2xl:gap-6"
+>
   <div
     class="card card-compact sm:card-normal w-full bg-base-100 border border-base-300"
   >
@@ -10,7 +12,7 @@
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
-          class="w-[30px] h-[30px] sm:w-10 sm:h-10 text-co-blue-p shrink-0"
+          class="w-[30px] h-[30px] sm:w-9 sm:h-9 xl:w-10 xl:h-10 text-co-blue-p shrink-0"
         >
           <path
             fill-rule="evenodd"
@@ -18,7 +20,7 @@
             clip-rule="evenodd"
           />
         </svg>
-        <h3 class="card-title text-3xl sm:text-4xl tracking-tight">
+        <h3 class="card-title text-3xl xl:text-4xl tracking-tight">
           Protect Yourself from Scams
         </h3>
       </div>
@@ -33,7 +35,7 @@
         >
           NOTE
         </div>
-        <p class="text-warning-content text-pretty md:pt-2">
+        <p class="text-warning-content text-pretty xl:text-lg md:pt-2">
           CDLE will never send you a text message with a link to log into your
           account. To be sure that you are accessing the official MyUI+ portal
           and not a fake site, access your MyUI+ account via CDLE's official
@@ -56,7 +58,7 @@
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
-          class="w-[30px] h-[30px] sm:w-10 sm:h-10 text-co-blue-p shrink-0"
+          class="w-[30px] h-[30px] sm:w-9 sm:h-9 xl:w-10 xl:h-10 text-co-blue-p shrink-0"
         >
           <path
             d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0 0 16.5 9h-1.875a1.875 1.875 0 0 1-1.875-1.875V5.25A3.75 3.75 0 0 0 9 1.5H5.625Z"
@@ -65,26 +67,28 @@
             d="M12.971 1.816A5.23 5.23 0 0 1 14.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 0 1 3.434 1.279 9.768 9.768 0 0 0-6.963-6.963Z"
           />
         </svg>
-        <h3 class="card-title text-3xl sm:text-4xl tracking-tight text-balance">
+        <h3 class="card-title text-3xl xl:text-4xl tracking-tight text-balance">
           1099-G Tax Forms Available in MyUI+
         </h3>
       </div>
-      <p class="xl:text-lg text-balance md:text-pretty pt-2 pb-1">
-        If you received unemployment benefits in 2023, you can download a copy
-        of your 1099-G tax form from your MyUI+ account. Please log in and go to
-        "View Correspondences."
-      </p>
-      <p class="xl:text-lg text-balance md:text-pretty py-2">
-        You can request a correction if you believe the 1099-G form you received
-        has an error, or you received a 1099-G form in your name despite not
-        having received unemployed benefits.
-      </p>
-      <a
-        href="https://myui.clouduim.cdle.state.co.us/Claimant/Benefits/Payments/ViewRequest1099G.ASPX"
-        class="link xl:text-lg font-semibold py-2 underline-offset-8"
-      >
-        Request a Correction &rsaquo;
-      </a>
+      <div class="flex flex-col gap-4">
+        <p class="xl:text-lg text-balance md:text-pretty">
+          If you received unemployment benefits in 2023, you can download a copy
+          of your 1099-G tax form from your MyUI+ account. Please log in and go
+          to "View Correspondences."
+        </p>
+        <p class="xl:text-lg text-balance pb-2 md:text-pretty">
+          You can request a correction if you believe the 1099-G form you
+          received has an error, or you received a 1099-G form in your name
+          despite not having received unemployed benefits.
+        </p>
+        <a
+          href="https://myui.clouduim.cdle.state.co.us/Claimant/Benefits/Payments/ViewRequest1099G.ASPX"
+          class="link xl:text-lg font-semibold underline-offset-8"
+        >
+          Request a Correction &rsaquo;
+        </a>
+      </div>
     </div>
   </div>
 </div>

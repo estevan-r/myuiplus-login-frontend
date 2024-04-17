@@ -6,12 +6,14 @@
   class="card card-compact sm:card-normal mt-4 sm:mt-9 w-full bg-base-100 border border-base-300"
 >
   <div class="card-body">
-    <div class="flex justify-between flex-row-reverse md:flex-col md:gap-6">
+    <div
+      class="flex justify-between flex-row-reverse items-center md:items-start lg:items-center md:flex-col lg:flex-row-reverse md:gap-6"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        class="w-[30px] h-[30px] sm:w-12 sm:h-12 text-co-blue-p shrink-0"
+        class="w-[30px] h-[30px] sm:w-9 sm:h-9 xl:w-12 xl:h-12 text-co-blue-p shrink-0"
       >
         <path
           fill-rule="evenodd"
@@ -19,17 +21,21 @@
           clip-rule="evenodd"
         />
       </svg>
-      <h2 class="card-title text-3xl sm:text-5xl text-balance tracking-tight">
+      <h2
+        class="card-title text-3xl sm:text-4xl xl:text-5xl text-balance tracking-tight"
+      >
         Next Steps After Filing Your Claim
       </h2>
     </div>
-    <p class="sm:text-2xl text-balance sm:py-4">
+    <p class="sm:text-xl xl:text-2xl text-balance sm:py-3">
       Once you've opened your unemployment claim, there are a few things you
       need to do in order to remain eligible for benefits and receive payments
       on time.
     </p>
     <SmallCards />
-    <p class="text-sm sm:text-base sm:px-2 font-light italic pt-2 text-pretty">
+    <p
+      class="text-sm sm:text-base sm:px-2 xl:font-normal font-light italic pt-2 text-pretty"
+    >
       For more information, visit the <a
         href="https://cdle.colorado.gov/eligibility-and-work-search-requirements"
         class="link">Eligibility and Work Search Requirements</a
