@@ -8,7 +8,7 @@
 >
   <div class="flex flex-wrap justify-between items-center gap-9">
     <ul
-      class="link flex flex-wrap justify-center md:justify-start gap-x-9 gap-y-6 text-sm md:text-base underline-offset-4"
+      class="link flex flex-wrap justify-center md:justify-start gap-x-9 gap-y-6 text-sm sm:text-base underline-offset-4"
     >
       <li>
         <a
@@ -29,7 +29,7 @@
         >
       </li>
     </ul>
-    <div class="flex items-center gap-3 text-sm md:text-base text-balance">
+    <div class="flex items-center gap-3 text-sm sm:text-base text-balance">
       <img src={emblem} alt="CDLE emblem" class="h-6 w-auto" />
       <p>©{year} Colorado Department of Labor and Employment</p>
     </div>

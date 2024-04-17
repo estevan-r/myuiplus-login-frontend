@@ -2,9 +2,9 @@
   const pStyle = "text-sm sm:text-2xl font-medium text-balance";
 </script>
 
-<div class="grid md:grid-cols-3 gap-4 sm:gap-12 py-4 sm:py-6">
+<div class="grid md:grid-cols-3 gap-4 md:gap-12 py-4 md:py-6">
   <div class="card w-full bg-base-200 shadow-lg">
-    <div class="card-body sm:flex-col flex-row gap-4">
+    <div class="card-body md:flex-col flex-row gap-4">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -28,7 +28,7 @@
   </div>
 
   <div class="card w-full bg-base-200 shadow-lg">
-    <div class="card-body sm:flex-col flex-row gap-4">
+    <div class="card-body md:flex-col flex-row gap-4">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -48,7 +48,7 @@
   </div>
 
   <div class="card w-full bg-base-200 shadow-lg">
-    <div class="card-body sm:flex-col flex-row gap-4">
+    <div class="card-body md:flex-col flex-row gap-4">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"

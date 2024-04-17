@@ -29,7 +29,7 @@
       on time.
     </p>
     <SmallCards />
-    <p class="text-sm sm:text-base font-light italic pt-2">
+    <p class="text-sm sm:text-base font-light italic pt-2 text-pretty">
       For more information, visit the <a
         href="https://cdle.colorado.gov/eligibility-and-work-search-requirements"
         class="link">Eligibility and Work Search Requirements</a

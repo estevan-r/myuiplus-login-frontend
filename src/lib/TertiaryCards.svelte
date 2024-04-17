@@ -1,14 +1,14 @@
-<div class="mt-4 sm:mt-9 flex flex-wrap gap-4">
+<div class="mt-4 sm:mt-9 flex flex-wrap gap-4 sm:gap-9">
   <div
     class="card card-compact sm:card-normal w-full bg-base-100 border border-base-300"
   >
     <div class="card-body">
-      <div class="flex justify-between flex-row-reverse">
+      <div class="flex justify-between items-center flex-row-reverse">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
-          class="w-[30px] h-[30px] sm:w-12 sm:h-12 text-co-blue-p shrink-0"
+          class="w-[30px] h-[30px] sm:w-10 sm:h-10 text-co-blue-p shrink-0"
         >
           <path
             fill-rule="evenodd"
@@ -25,7 +25,7 @@
         site's design—to trick unsuspecting victims into giving up personal or
         financial information.
       </p>
-      <div class="card-body p-4 sm:p-6 rounded-lg bg-co-yellow-s shadow-lg">
+      <div class="card-body rounded-lg bg-co-yellow-s shadow-lg">
         <div
           class="badge badge-sm md:badge-md bg-co-yellow-p text-warning-content tracking-widest p-3 font-medium"
         >
@@ -47,12 +47,12 @@
     class="card card-compact sm:card-normal w-full bg-base-100 border border-base-300"
   >
     <div class="card-body">
-      <div class="flex justify-between flex-row-reverse">
+      <div class="flex justify-between items-center flex-row-reverse">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
-          class="w-[30px] h-[30px] sm:w-12 sm:h-12 text-co-blue-p shrink-0"
+          class="w-[30px] h-[30px] sm:w-10 sm:h-10 text-co-blue-p shrink-0"
         >
           <path
             d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0 0 16.5 9h-1.875a1.875 1.875 0 0 1-1.875-1.875V5.25A3.75 3.75 0 0 0 9 1.5H5.625Z"
@@ -61,7 +61,7 @@
             d="M12.971 1.816A5.23 5.23 0 0 1 14.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 0 1 3.434 1.279 9.768 9.768 0 0 0-6.963-6.963Z"
           />
         </svg>
-        <h3 class="card-title text-3xl sm:text-4xl tracking-tight">
+        <h3 class="card-title text-3xl sm:text-4xl tracking-tight text-balance">
           1099-G Tax Forms Available in MyUI+
         </h3>
       </div>

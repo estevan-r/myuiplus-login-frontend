@@ -10,7 +10,7 @@
         <span class="label-text">Social Security Number</span>
       </label>
       <input
-        type="email"
+        type="number"
         id="ss-number"
         name="ss-number"
         class="input input-bordered"
