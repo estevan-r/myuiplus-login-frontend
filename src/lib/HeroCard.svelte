@@ -1,5 +1,6 @@
 <script>
   import LoginCard from "./LoginCard.svelte";
+  import hero from "../assets/ui-hero.jpg";
 </script>
 
 <div
@@ -12,7 +13,7 @@
       <LoginCard />
 
       <img
-        src="src/assets/ui-hero.jpg"
+        src={hero}
         alt="Woman at a table typing on her computer."
         class="hidden md:block lg:hidden max-w-sm rounded-lg shadow-2xl w-auto h-[340px] object-cover"
       />
@@ -48,7 +49,7 @@
       </button>
     </div>
     <img
-      src="src/assets/ui-hero.jpg"
+      src={hero}
       alt="Woman at a table typing on her computer."
       class="hidden xl:block max-w-sm rounded-lg shadow-2xl w-64 2xl:w-80 h-auto object-cover"
     />
