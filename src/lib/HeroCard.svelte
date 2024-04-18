@@ -6,9 +6,9 @@
   class="hero rounded-2xl mt-4 p-6 md:p-6 bg-gradient-to-b from-co-blue-p to-co-blue-s"
 >
   <div
-    class="hero-content p-0 sm:p-4 flex-col lg:flex-row gap-6 sm:gap-8 justify-between"
+    class="hero-content max-w-none p-0 sm:p-4 flex-col lg:flex-row gap-6 sm:gap-8 justify-between"
   >
-    <div class="w-full md:flex md:gap-9 md:items-center">
+    <div class="md:flex md:gap-9 md:items-center">
       <LoginCard />
 
       <img
@@ -18,7 +18,9 @@
       />
     </div>
 
-    <div class="flex flex-col gap-4 sm:gap-6 px-4">
+    <div
+      class="md:max-w-[600px] lg:max-w-none flex flex-col gap-4 sm:gap-6 px-4"
+    >
       <h2
         class="text-3xl sm:text-5xl 2xl:text-6xl font-bold tracking-tight text-base-100"
       >
