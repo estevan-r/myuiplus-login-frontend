@@ -1,5 +1,36 @@
-<!-- Refactor to call text as data -->
-<div class="alert alert-info items-start text-left shadow-lg sm:p-6">
+<script>
+  let alert;
+  function Hide(hideId) {
+    hideId.style.display = "none";
+  }
+</script>
+
+<div
+  bind:this={alert}
+  class="realtive alert alert-info items-start text-left shadow-lg sm:p-6"
+>
+  <div class="sm:hidden absolute w-full px-6 flex justify-end">
+    <button
+      type="button"
+      on:click={() => Hide(alert)}
+      class="min-h-6 h-6 w-6 btn btn-circle"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        class="h-4 w-4"
+        ><path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M6 18L18 6M6 6l12 12"
+        />
+      </svg>
+    </button>
+  </div>
+
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
@@ -12,6 +43,7 @@
       d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
     ></path>
   </svg>
+
   <ul
     class="text-base-content flex flex-col gap-3 px-4 md:px-6 text-sm lg:text-base"
   >
@@ -45,6 +77,26 @@
       </p>
     </li>
   </ul>
+
+  <button
+    type="button"
+    on:click={() => Hide(alert)}
+    class="hidden sm:inline-flex min-h-6 h-6 w-6 btn btn-circle"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      class="h-4 w-4"
+      ><path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M6 18L18 6M6 6l12 12"
+      />
+    </svg>
+  </button>
 </div>
 
 <style>
