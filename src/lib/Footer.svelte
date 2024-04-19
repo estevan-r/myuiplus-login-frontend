@@ -100,6 +100,7 @@
         </li>
         <li>
           <a
+            target="_blank"
             href="https://myui.clouduim.cdle.state.co.us/Static/Core/ViewingTips.html"
             class="flex items-center gap-1"
           >

@@ -39,8 +39,10 @@
           CDLE will never send you a text message with a link to log into your
           account. To be sure that you are accessing the official MyUI+ portal
           and not a fake site, access your MyUI+ account via CDLE's official
-          website at <a href="https://coloradoui.gov/" class="link"
-            >ColoradoUI.gov</a
+          website at <a
+            target="_blank"
+            href="https://coloradoui.gov/"
+            class="link">ColoradoUI.gov</a
           >.
         </p>
       </div>
@@ -83,6 +85,7 @@
           despite not having received unemployed benefits.
         </p>
         <a
+          target="_blank"
           href="https://myui.clouduim.cdle.state.co.us/Claimant/Benefits/Payments/ViewRequest1099G.ASPX"
           class="link xl:text-lg font-semibold underline-offset-8"
         >

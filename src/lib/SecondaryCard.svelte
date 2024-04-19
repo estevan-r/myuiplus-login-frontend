@@ -37,6 +37,7 @@
       class="text-sm sm:text-base sm:px-2 xl:font-normal font-light italic pt-2 text-pretty"
     >
       For more information, visit the <a
+        target="_blank"
         href="https://cdle.colorado.gov/eligibility-and-work-search-requirements"
         class="link">Eligibility and Work Search Requirements</a
       > page on our website.

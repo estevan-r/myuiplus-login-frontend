@@ -71,6 +71,7 @@
         If you do not provide documents requested by us, your claim may be
         denied. Uploads can be made directly into the issue in MyUI+ or on our
         website under the "Upload Documents" section at <a
+          target="_blank"
           href="https://coloradoui.gov/"
           class="link">ColoradoUI.gov</a
         >.

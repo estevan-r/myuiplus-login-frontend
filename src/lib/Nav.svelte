@@ -7,7 +7,7 @@
   class="w-full sm:px-6 md:px-9 2xl:px-0 max-w-[1428px] m-auto navbar lg:py-4 bg-base-100 border-b border-base-200"
 >
   <div class="flex-1 px-2">
-    <a href="https://coloradoui.gov/">
+    <a target="_blank" href="https://coloradoui.gov/">
       <img
         src={logo}
         alt="CDLE logo"
