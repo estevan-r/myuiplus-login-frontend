@@ -13,7 +13,7 @@
   <div class="drawer-content flex flex-col">
     <Nav />
 
-    <main class="max-w-[1500px] m-auto px-2 sm:px-6 md:px-9 pt-4">
+    <main class="max-w-[1500px] m-auto px-2 sm:px-6 md:px-9">
       <Alerts />
       <HeroCard />
       <SecondaryCard />

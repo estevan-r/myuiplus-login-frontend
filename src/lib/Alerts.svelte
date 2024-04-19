@@ -7,7 +7,7 @@
 
 <div
   bind:this={alert}
-  class="relative alert alert-info items-start text-left shadow-lg sm:p-6"
+  class="relative alert alert-info items-start text-left shadow-lg sm:p-6 mt-4"
 >
   <div class="sm:hidden absolute top-0 right-0 p-4">
     <button
