@@ -7,9 +7,9 @@
 
 <div
   bind:this={alert}
-  class="realtive alert alert-info items-start text-left shadow-lg sm:p-6"
+  class="relative alert alert-info items-start text-left shadow-lg sm:p-6"
 >
-  <div class="sm:hidden absolute w-full px-6 flex justify-end">
+  <div class="sm:hidden absolute top-0 right-0 p-4">
     <button
       type="button"
       on:click={() => Hide(alert)}

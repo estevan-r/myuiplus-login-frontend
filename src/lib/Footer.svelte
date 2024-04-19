@@ -16,9 +16,24 @@
         class="link flex flex-wrap justify-center md:justify-start gap-x-9 gap-y-6 text-sm sm:text-base underline-offset-4"
       >
         <li>
-          <button on:click={() => (showModal1 = true)} class="link"
-            >Privacy Statement &nearr;</button
+          <button
+            on:click={() => (showModal1 = true)}
+            class="flex items-center gap-1"
           >
+            Privacy Statement
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-4 h-4"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M15.75 2.25H21a.75.75 0 0 1 .75.75v5.25a.75.75 0 0 1-1.5 0V4.81L8.03 17.03a.75.75 0 0 1-1.06-1.06L19.19 3.75h-3.44a.75.75 0 0 1 0-1.5Zm-10.5 4.5a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5V10.5a.75.75 0 0 1 1.5 0v8.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V8.25a3 3 0 0 1 3-3h8.25a.75.75 0 0 1 0 1.5H5.25Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
           <Modal1 bind:showModal1>
             <h3 slot="header" class="font-bold text-lg">Data Privacy</h3>
             <div class="flex flex-col py-4 gap-4 text-pretty">
@@ -47,9 +62,24 @@
           </Modal1>
         </li>
         <li>
-          <button on:click={() => (showModal2 = true)} class="link"
-            >Accessibility &nearr;</button
+          <button
+            on:click={() => (showModal2 = true)}
+            class="flex items-center gap-1"
           >
+            Accessibility
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-4 h-4"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M15.75 2.25H21a.75.75 0 0 1 .75.75v5.25a.75.75 0 0 1-1.5 0V4.81L8.03 17.03a.75.75 0 0 1-1.06-1.06L19.19 3.75h-3.44a.75.75 0 0 1 0-1.5Zm-10.5 4.5a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5V10.5a.75.75 0 0 1 1.5 0v8.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V8.25a3 3 0 0 1 3-3h8.25a.75.75 0 0 1 0 1.5H5.25Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
           <Modal2 bind:showModal2>
             <h3 slot="header" class="font-bold text-lg">Accessibility</h3>
             <div class="flex flex-col py-4 gap-4 text-pretty">
@@ -71,8 +101,22 @@
         <li>
           <a
             href="https://myui.clouduim.cdle.state.co.us/Static/Core/ViewingTips.html"
-            >Viewing Tips &nearr;</a
+            class="flex items-center gap-1"
           >
+            Viewing Tips
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-4 h-4"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M15.75 2.25H21a.75.75 0 0 1 .75.75v5.25a.75.75 0 0 1-1.5 0V4.81L8.03 17.03a.75.75 0 0 1-1.06-1.06L19.19 3.75h-3.44a.75.75 0 0 1 0-1.5Zm-10.5 4.5a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5V10.5a.75.75 0 0 1 1.5 0v8.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V8.25a3 3 0 0 1 3-3h8.25a.75.75 0 0 1 0 1.5H5.25Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
         </li>
       </ul>
 
