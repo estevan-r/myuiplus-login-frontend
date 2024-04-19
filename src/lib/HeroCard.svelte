@@ -42,6 +42,7 @@
       <a
         target="_blank"
         href="https://myui.clouduim.cdle.state.co.us/Claimant/Benefits/Claims/Initial/ViewPrelimInfo.ASPX"
+        class="w-fit"
       >
         <button
           class="btn w-full btn-md md:w-1/3 lg:w-fit sm:btn-lg btn-outline text-base-100 sm:text-lg border-co-yellow-p hover:bg-co-yellow-p hover:text-base-content"
