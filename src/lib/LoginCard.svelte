@@ -1,3 +1,8 @@
+<script>
+  import idMeLogo from "../assets/idme-logo.svg";
+  import idMeLogoWhite from "../assets/idme-logo-white.svg";
+</script>
+
 <div
   class="card card-compact sm:card-normal rounded-lg shrink-0 md:w-[312px] lg:w-[360px] lg:max-w-sm shadow-2xl bg-base-100"
 >
@@ -8,41 +13,31 @@
       Claimant Login
     </h1>
     <div class="form-control">
-      <label for="ss-number" class="label">
-        <span class="label-text">Social Security Number</span>
-      </label>
-      <input
-        type="text"
-        id="ss-number"
-        name="ss-number"
-        class="input input-bordered"
-        required
-      />
+      <span class="label label-text">Sign in with an existing account</span>
+      <a
+        href="/"
+        class="flex btn btn-primary border-none bg-idme-green text-white lg:text-lg hover:opacity-80 hover:bg-idme-green"
+      >
+        Sign in with <img
+          src={idMeLogoWhite}
+          alt="ID.me"
+          class="lg:w-14 w-12 h-auto"
+        />
+      </a>
     </div>
+    <div class="divider mb-3 text-sm font-bold">OR</div>
     <div class="form-control">
-      <div class="flex justify-between">
-        <label for="password" class="label">
-          <span class="label-text">Password</span>
-        </label>
-        <label for="password" class="label">
-          <a href="/" class="label-text-alt link link-hover">Forgot password?</a
-          >
-        </label>
-      </div>
-      <input
-        type="password"
-        id="password"
-        name="password"
-        class="input input-bordered"
-        required
-      />
-    </div>
-    <div class="form-control mt-6">
-      <input
-        type="submit"
-        value="Login"
-        class="btn btn-primary border-none bg-co-blue-p hover:bg-co-blue-s"
-      />
+      <span class="label label-text">Create an account</span>
+      <a
+        href="/"
+        class="flex btn btn-outline border-idme-green lg:text-lg hover:bg-white hover:border-idme-green hover:text-base-content hover:opacity-80"
+      >
+        Create an account <img
+          src={idMeLogo}
+          alt="ID.me"
+          class="lg:w-14 w-12 h-auto"
+        />
+      </a>
     </div>
     <p class="pt-6 text-xs text-pretty">
       This system is for Official Use Only and contains Personally Identifiable

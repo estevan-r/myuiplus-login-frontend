@@ -7,6 +7,8 @@ export default {
       "co-blue-s": "#001970",
       "co-yellow-p": "#ffd100",
       "co-yellow-s": "#fff5cc",
+      "idme-green": "#2fc877",
+      white: "#ffffff",
     },
     fontFamily: {
       sans: ["Open Sans", "sans-serif"],
