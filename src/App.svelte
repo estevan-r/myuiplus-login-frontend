@@ -5,19 +5,23 @@
   import HeroCard from "./lib/HeroCard.svelte";
   import SecondaryCard from "./lib/SecondaryCard.svelte";
   import TertiaryCards from "./lib/TertiaryCards.svelte";
+  import SystemDown from "./lib/SystemDown.svelte";
   import Footer from "./lib/Footer.svelte";
 </script>
 
 <div class="drawer">
   <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
-  <div class="drawer-content flex flex-col">
-    <Nav />
+  <div class="relative drawer-content flex flex-col w-full h-screen">
+    <div class="grid place-items-center">
+      <Nav />
+    </div>
 
     <main class="max-w-[1500px] m-auto px-2 sm:px-6 md:px-9">
-      <Alerts />
+      <!-- <Alerts />
       <HeroCard />
       <SecondaryCard />
-      <TertiaryCards />
+      <TertiaryCards /> -->
+      <SystemDown />
     </main>
     <Footer />
   </div>
